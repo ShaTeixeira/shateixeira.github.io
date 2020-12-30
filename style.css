@@ -1,0 +1,147 @@
+/* config total */
+/* font-family: 'Staatliches', cursive;
+font-family: 'Inconsolata', monospace;
+font-family: 'Langar', cursive;
+ */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #EBD3D3;
+}
+
+.navbar {
+  background-color: #dccaca;
+}
+
+a.navbar-brand {
+  text-decoration: none;
+  color: #363434;
+  font-family: 'Langar', cursive;
+}
+
+a.navbar-brand:hover {
+  color: #707070;
+}
+
+.jumbotron {
+  background-color: #E1C6C6;
+  margin: 20px;
+  border: 2px solid #bdbdbd;
+  border-radius: 8px;
+}
+
+.jumbotron.photos {
+  background-color: red;
+}
+
+h1 {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+h4  {
+  font-family: 'Staatliches', cursive;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.info {
+  font-family: 'Staatliches', cursive;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#fotos--site, 
+#escola--site--pag,
+#hobbies--site--pag,
+#hobbies--site {
+  background-color: #D89696;
+  display: inline-block; /* colocar obejtos um do lado do outro em divs*/
+  margin-left: 30px;
+  width: 150px;
+  height: 150px;
+  border-radius: 80px;
+}
+
+#escola--site,
+#escola--site--pag {
+  background-color: #ffffff;
+  display: inline-block; /* colocar obejtos um do lado do outro em divs*/
+  margin-left: 30px;
+  width: 150px;
+  height: 150px;
+  border-radius: 80px;
+}
+
+#escola--site:hover,
+#escola--site--pag:hover {
+  background-color: #D89696;
+  cursor: pointer;
+}
+
+#hobbies--site:hover,
+#fotos--site:hover,
+#hobbies--site--pag:hover {
+  background-color: #DF8282;
+  cursor: pointer;
+}
+
+a.alinhar {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.org {
+  font-family: 'Staatliches', cursive;
+  text-decoration: none;
+  color:#000;
+}
+
+.org:hover {
+  color: #707070;
+}
+
+img.item{
+  width: 150px;
+  height: 150px;
+}
+
+.footer{
+  color: #000;
+}
+
+.footer:hover {
+  color: #EC6767;
+}
+
+img  {
+  width: 15px;
+  height: 15px;
+}
+
+a.footer--style{
+  text-decoration: none;
+
+}
+
+a.footer--style:hover{
+  color: #000;
+}
+
+/* CSS DA PAGINA ESCOLA */
+.progress .progress-bar {
+  background-color: #EC6767;
+}
+
+.container--escola {
+  background-color: #EBD3D3;
+}
