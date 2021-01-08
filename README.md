@@ -12,9 +12,11 @@ Apliquei o que estou aprendendo no curso da B7WEB.
 
 [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
+Um pouco 
+[JavaScript](https://www.javascript.com/)
 
 ## Atualizações 
-Ainda tenho modificações para serem feitas. Aplicação de JS (JavaScript)
+Modificações para serem feitas. Organização do JS (JavaScript)
 
 ## Link:
 [Shayane Teixeira](https://shateixeira.github.io/)
