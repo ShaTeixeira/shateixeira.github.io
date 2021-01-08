@@ -12,7 +12,6 @@ Apliquei o que estou aprendendo no curso da B7WEB.
 
 [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
-Um pouco 
 [JavaScript](https://www.javascript.com/)
 
 ## Atualizações 
