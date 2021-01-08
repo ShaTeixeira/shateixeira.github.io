@@ -31,13 +31,13 @@
 </head>
 
 <!-- tag de navegação -->
-
 <body class="header">
   <header>
     <nav class="navbar">
       <a class="navbar-brand" href="/" id="home" method="get"><b>Home</b></a>
     </nav>
   </header>
+
   <section>
     <!--seção com nome e descricao-->
     <div class="jumbotron text-center">
@@ -48,9 +48,18 @@
       </p>
     </div>
   </section>
+
+  <!-- JAVASCRIPT COM HORARIO -->
   <section>
-    <!-- secao com circulos de distribuicao das paginas -->
-    <div class="jumbotron text-center divisao">
+    <div class="jumbotron text-center">
+      <h4>Horário de Brasília</h4>
+    <div class="demo"></div>
+  </div>
+  </section>
+
+ <!-- secao com circulos de distribuicao das paginas -->
+  <section>
+      <div class="jumbotron text-center divisao">
       <div id="fotos--site">
         <a class="alinhar" href="fotos.html" target="_blank">
           <p class="org">Fotos</p>
@@ -68,12 +77,16 @@
       </div>
     </div>
   </section>
+
   <section>
     <!-- aplicar um comentario utilizando javascript  -->
     <div class="jumbotron text-center">
-      ...
+      <h4>Envie seu comentário</h4>
+      <p><strong><em>Fase de Testes. Não está pronto para utilização.</em></strong></p>
+      <textarea id="text" name="comment" rows="4" cols="50" placeholder="Escreva aqui seu comentário."></textarea>
     </div>
   </section>
+
   <section>
     <div class="jumbotron text-center">
       <h4> Redes Sociais</h4>
@@ -91,6 +104,7 @@
       </div>
     </div>
   </section>
+
   <section>
     <div class="container-fluid">
       <footer class="container-fluid text-center">
@@ -106,5 +120,8 @@
     </footer>
     </div>
   </section>
+
+  <script src="script.js"></script>
+
 </body>
 </html>
