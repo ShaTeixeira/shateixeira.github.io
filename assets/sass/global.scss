@@ -1,0 +1,126 @@
+/* FONTS GOOGLE  */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;600&family=Poppins:wght@200;300;400;600&display=swap");
+
+/* RESET */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-dark: #2b2b2b;
+  --background-light: #f3f5f7;
+  --letter-color-atention: #6b1cd0;
+  --second-color-letter: #9c9c9c;
+  --second-color: #d1d1d1be;
+  --color-cards-letters: #8393af;
+  --color-base: #ffffff;
+  --color-base-two: #ae8ef4;
+  --color-badge: #620886;
+}
+
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:focus,
+input:focus {
+  border: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.linkGithubExternalLink .linkExternal {
+  margin-left: 15rem;
+}
+
+.cards_info_colors {
+  position: relative;
+  bottom: -20px;
+  left: -30px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding: 8px;
+
+  background: #ae8ef4;
+  border-radius: 5px;
+}
+
+.cards_info_color.primary {
+  width: 40px;
+  height: 40px;
+  left: 248px;
+  top: 632px;
+
+  /* letter-color-detail */
+
+  background: #6b1cd0;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.cards_info_color.second {
+  width: 40px;
+  height: 40px;
+  left: 248px;
+  top: 632px;
+
+  /* second-color-letter */
+
+  background: #9c9c9c;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.cards_info_color.third {
+  width: 40px;
+  height: 40px;
+  left: 248px;
+  top: 632px;
+
+  /* color-base */
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.cards_info_color.black {
+  width: 40px;
+  height: 40px;
+  left: 248px;
+  top: 632px;
+
+  /* color-base-two */
+
+  background: #ae8ef4;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}

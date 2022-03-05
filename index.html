@@ -5,14 +5,15 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfolio Website Shayane Teixeira" />
+  <meta name="description" content="Website Shayane Teixeira" />
 
   <title>Shayane Teixeira</title>
 
   <!-- STYLES AND ICON PAGE -->
   <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./assets/css/global.css" />
-  <link rel="stylesheet" href="./assets/css/home.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/root.css" />
 
   <!-- icon -->
   <link rel="shortcut icon" href="assets/image/iconbytedev.svg" type="image/x-icon" />
@@ -36,6 +37,9 @@
             <a href="#projects" class="nav_link">Projetos</a>
           </li>
           <li class="nav_item">
+            <a href="#conhecimento" class="nav_link">Conhecimentos</a>
+          </li>
+          <li class="nav_item">
             <a href="#services" class="nav_link">Serviços</a>
           </li>
           <li class="nav_item">
@@ -47,7 +51,7 @@
         </div>
       </div>
       <div class="nav_btns">
-        <!--  <img class="change-theme" id="theme-button" src="./assets/image/button-change-theme.svg"
+        <!-- <img class="change-theme" id="theme-button" src="./assets/image/button-change-theme.svg"
           alt="Button Change Theme" /> -->
         <div class="nav_toggle" id="nav-toggle">
           <img src="./assets/image/menu.svg" alt="Menu" />
@@ -106,14 +110,17 @@
             Normalmente tenho me dedicando cerca de 5hrs por dia para os estudos.
             Vejo que estou em um bom caminho, pois tenho conseguido realizar bons projetos.
           </p>
-          <a class="about_button" href="/">Download CV</a>
+          <a class="about_button" href="assets/image/cv.pdf" target="_blank">Visualizar CV</a>
           <div class="about_icons">
-            <a href="https://github.com/ShaTeixeira" target="_blank"><img class="home_links"
-                src="./assets/image/github.svg" alt="Github" /></a>
-            <a href="https://www.linkedin.com/in/shayane-teixeira-4520b2196/" target="_blank"><img class="home_links"
-                src="./assets/image/linkedin.svg" alt="Linkedin" /></a>
-            <a href="https://instagram.com/byte__dev" target="_blank"><img class="home_links"
-                src="./assets/image/instagram.svg" alt="Instagram" /></a>
+            <a href="https://github.com/ShaTeixeira" target="_blank">
+              <img class="home_links" src="./assets/image/github.svg" alt="Github" />
+            </a>
+            <a href="https://www.linkedin.com/in/shayane-teixeira-4520b2196/" target="_blank">
+              <img class="home_links" src="./assets/image/linkedin.svg" alt="Linkedin" />
+            </a>
+            <a href="https://instagram.com/byte__dev" target="_blank">
+              <img class="home_links" src="./assets/image/instagram.svg" alt="Instagram" />
+            </a>
           </div>
         </div>
       </div>
@@ -194,6 +201,35 @@
         </div>
       </div>
     </section>
+
+    <section class="conhecimentos container grid" id="conhecimentos">
+      <div class="larguraContainer">
+        <div>
+          <!-- <div class="conhecimento_container"> -->
+          <article id="texto-conhecimentos">
+            <h2 class="titulo-delay">Conhecimentos <span class="conhecimentos_pont">.</span></h2>
+            <p class="descricao-delay mudarTextoDescricao">
+              Juntos para novos conhecimentos #neverstoplearning.💜
+              <br />
+              <br />
+              <em>para ter uma introdução a mais sobre as techs, passe o <strong>mouse por cima.</strong></em>
+            </p>
+          </article>
+          <div id="cards-conhecimentos">
+            <article class="cards-interval html sairCaixa">
+              <img src="assets/image/icon-html.svg" alt="ícone do html" class="icon-conhecimentos" />
+            </article>
+            <article class="cards-interval css sairCaixa">
+              <img src="assets/image/icon-css.svg" alt="ícone do css" class="icon-conhecimentos" />
+            </article>
+            <article class="cards-interval js sairCaixa">
+              <img src="assets/image/icon-js.svg" alt="ícone do javascript" class="icon-conhecimentos" />
+            </article>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+    </section>
     <section class="services container grid" id="services">
       <h2 class="services_title">
         Serviços<span class="services_pont">.</span>
@@ -253,6 +289,7 @@
     <script src="assets/js/scrollreveal.min.js"></script>
     <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <!-- <script src="assets/js/socialMedia.js"></script> -->
 </body>
 
 </html>

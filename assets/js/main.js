@@ -46,7 +46,7 @@ themeButton.addEventListener('click', () => {
 
 const sr = ScrollReveal({
   origin: 'top',
-  distance: '60px',
+  distance: '50px',
   duration: 2500,
   delay: 400,
 });
@@ -86,3 +86,31 @@ function scrollUp() {
   else scrollUp.classList.remove('show-scroll');
 }
 window.addEventListener('scroll', scrollUp);
+
+//ANIMAÇÃO DE CONHECIMENTOS - LINGUAGENS 
+let texto1 = document.querySelector(".mudarTextoDescricao");
+
+document.querySelector(".html").addEventListener("mouseover", function () {
+  texto1.innerHTML =
+    "<span>HTML</span> é uma linguagem de marcação utilizada na construção de páginas na Web. <br><br> 3 anos de experiência";
+});
+
+document.querySelector(".css").addEventListener("mouseover", function () {
+  texto1.innerHTML =
+    "<span>CSS</span> é uma linguagem de folha de estilo composta por “camadas”, criado com o propósito de estilizar as páginas HTML. <br><br> 3 anos de experiência";
+});
+
+document.querySelector(".js").addEventListener("mouseover", function () {
+  texto1.innerHTML =
+    "<span>JavaScript</span> é uma linguagem de programação estruturada de script em alto nível. <br><br> 10 meses de experiência";
+});
+
+let sairCaixa = document.getElementsByClassName("sairCaixa");
+
+for (i = 0; i < sairCaixa.length; i++) {
+  sairCaixa[i].addEventListener("mouseout", function mudarTextoNormal() {
+    texto1.innerHTML = `Juntos para novos conhecimentos #neverstoplearning.💜<br><br>
+    <em>para ter uma introdução a mais sobre as techs, passe o <strong>mouse por cima.</strong></em>
+    `;
+  });
+}
