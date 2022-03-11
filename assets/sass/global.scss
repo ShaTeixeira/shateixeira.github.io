@@ -1,11 +1,13 @@
 /* FONTS GOOGLE  */
-@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;600&family=Poppins:wght@200;300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap");
 
 /* RESET */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
