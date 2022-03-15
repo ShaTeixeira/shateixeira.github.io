@@ -3,6 +3,10 @@
 <p>Meu Portfólio - @byte__dev</p>
 </h1>
 
+🚧 PROJETO EM CONSTRUÇAO 🚧
+
+ainda com alguns bugs
+
 <h4 align="center"><a href="https://shateixeira.github.io">Clique para visitar o site</a></h4>
 
 ![Resultado final do projeto](assets/image/preview.png)
