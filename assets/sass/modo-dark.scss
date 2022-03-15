@@ -1,0 +1,52 @@
+:root {
+  --dark: #0c0c0c;
+  --light: #f1f1f1;
+  --label: #111;
+}
+body.dark {
+  background: var(--dark);
+  color: #fff;
+}
+
+nav {
+  color: var(--dark);
+}
+/* .contact_title,
+.contact_paragraph {
+  color: var(--light);
+} */
+
+div.toggle {
+  background: var(--dark);
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 3rem;
+  padding: 0.2rem;
+}
+input.checkbox {
+  position: absolute;
+  opacity: 0;
+}
+input.checkbox:checked + .label .switch {
+  transform: translateX(2.3rem);
+}
+label.label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.img-toggle {
+  width: 2em;
+  height: 2rem;
+}
+div.switch {
+  background: #fff;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  top: 0.1rem;
+  left: 0.1rem;
+  position: absolute;
+  transition: transform 0.3s linear;
+} /*# sourceMappingURL=modo-dark.css.map */

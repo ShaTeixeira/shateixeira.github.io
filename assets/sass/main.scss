@@ -36,7 +36,6 @@ img {
 }
 
 span {
-  text-decoration: underline;
   color: var(--color-badge);
   font-weight: bold;
 }
@@ -373,129 +372,61 @@ body.dark-theme {
   text-align: center;
 }
 
-/* MAIN CONHECIMENTOS ======================= */
-
-.conhecimentos_container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+/* skills */
+.skills_title {
   padding-top: 50px;
-  padding-bottom: 80px;
+  font-weight: 600;
+  font-size: 50px;
+  color: var(--title-color);
+  justify-self: center;
+}
+.skills_paragraph {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: var(--title-color);
+  justify-self: center;
+}
+
+.skills_pont {
+  color: var(--letter-color-atention);
+}
+
+.skills_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   justify-items: center;
 }
 
-#conhecimentos {
-  padding: 100px 75px;
-  background: var(--background-light);
+.skills_skills {
+  background: rgba(196, 196, 196, 0.07);
+  border: 1px solid rgba(196, 196, 196, 0.76);
+  box-sizing: border-box;
+  backdrop-filter: blur(56px);
+  border-radius: 12px;
+  padding: 10px 10px 10px 10px;
 }
 
-.conhecimentos_pont {
-  color: var(--letter-color-atention);
-  font-size: 5rem;
+.skills_div {
+  text-align: center;
+  justify-self: center;
 }
 
-@media screen and (max-width: 1024px) {
-  main #conhecimentos {
-    padding: 75px 20px 100px 20px;
-  }
+.skills_text {
+  padding-top: 20px;
+  padding-bottom: 25px;
+  font-weight: bold;
+  font-size: 30px;
+  color: var(--title-color);
+}
+.icon-skills {
+  width: 200px;
+  height: 200px;
 }
 
-main #conhecimentos .larguraContainer > div {
-  display: flex;
-  justify-content: space-between;
-  height: auto;
-  flex-wrap: wrap;
-
-  div,
-  article {
-    width: 50%;
-  }
-
-  #cards-conhecimentos {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-
-    article {
-      &:hover {
-        .cards-nomes,
-        .cards-nomes-baixo {
-          display: block;
-          text-align: center;
-        }
-
-        border: 3px solid #17161d;
-        border-image: linear-gradient(
-            225deg,
-            var(--color-base-two) 20%,
-            var(--second-color) 80%
-          )
-          1;
-      }
-
-      width: 20%;
-      flex-grow: 1;
-      height: 130px;
-      background: rgba(196, 196, 196, 0.07);
-      border-radius: 10px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-
-      .aumento-hover {
-        bottom: -75px;
-      }
-
-      .icon-conhecimentos {
-        width: 60px;
-      }
-    }
-  }
-
-  #texto-conhecimentos {
-    height: 300px;
-
-    h2 {
-      margin-bottom: 30px;
-      color: var(--text-color);
-      font-size: 3.2rem;
-      font-weight: 500;
-    }
-
-    p {
-      font-size: 1.8rem;
-      max-width: 500px;
-      line-height: 32px;
-      color: var(--text-color);
-    }
-  }
-}
-
-@media screen and (max-width: 1124px) {
-  main #conhecimentos .larguraContainer > div {
-    div,
-    article {
-      width: 100%;
-    }
-  }
-}
-
-@media screen and (max-width: 1124px) {
-  main #conhecimentos .larguraContainer > div #cards-conhecimentos {
-    margin-top: 50px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  main #conhecimentos .larguraContainer > div #cards-conhecimentos article {
-    width: 40%;
-    margin: 20px 0px;
-  }
-}
-
+/* services  */
 .services_title {
   padding-top: 100px;
   font-weight: 600;
@@ -548,6 +479,10 @@ main #conhecimentos .larguraContainer > div {
 }
 
 /* FOOTER ==================== */
+.contact_title,
+.contact_paragraph {
+  color: #000;
+}
 
 footer {
   margin-top: 10px;

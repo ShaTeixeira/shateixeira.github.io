@@ -1,11 +1,12 @@
 <h1 align="center">
+<p>🚧 PROJETO EM CONSTRUÇAO 🚧</p>
+<p>alguns bugs sendo resolvidos como o modo dark e as seçoes na aba projetos</p>
+</h1>
+
+<h1 align="center">
 <img src="assets/image/iconbytedev.svg" alt="Logo bytedev" width="40%">
 <p>Meu Portfólio - @byte__dev</p>
 </h1>
-
-🚧 PROJETO EM CONSTRUÇAO 🚧
-
-ainda com alguns bugs
 
 <h4 align="center"><a href="https://shateixeira.github.io">Clique para visitar o site</a></h4>
 

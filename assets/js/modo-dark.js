@@ -1,3 +1,12 @@
+const checkbox = document.querySelector('.checkbox')
+
+checkbox.addEventListener('change', () => {
+    document.body.classList.toggle('dark')
+})
+
+
+
+
 /* const linksSocialMedias = {
     github: "ShaTeixeira",
     instagram: "byte__dev",
