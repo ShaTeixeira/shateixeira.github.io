@@ -67,3 +67,50 @@
     <a href="#" class="scrollup" id="scroll-up">
       <img class="scrollup_icon" src="./assets/image/arrow.svg" alt="Arrow" />
     </a>
+
+ <section class="skills container grid" id="skills">
+      <h2 class="skills_title">
+        Conhecimentos<span class="skills_pont">.</span>
+      </h2>
+      <p class="skills_paragraph">Juntos para novos conhecimentos #neverstoplearning.💜</p>
+      <div class="skills_container">
+        <div class="skills_skills">
+          <div class="skills_div">
+            <article class="cards-interval js sairCaixa">
+              <img src="assets/image/icon-js.svg" alt="ícone do javascript" class="icon-skills" />
+              <div class="skills_level">98%</div>
+              <p class="skills_text">Javascript</p>
+              <p class="skills_description">lorem ipsum dolor sit amet, consectetur adipis</p>
+            </article>
+          </div>
+        </div>
+        <div class="skills_skills">
+          <div class="skills_div">
+            <article class="cards-interval sass sairCaixa">
+              <img src="assets/image/icon-sass.svg" alt="ícone do sass" class="icon-skills" />
+              <div class="skills_level">98%</div>
+              <p class="skills_text">Sass</p>
+              <p class="skills_description">lorem ipsum dolor sit amet, consectetur adipis</p>
+            </article>
+          </div>
+        </div>
+        <div class="skills_skills">
+          <div class="skills_div">
+            <article class="cards-interval ts sairCaixa">
+              <img src="assets/image/icon-ts.svg" alt="ícone do ts" class="icon-skills" />
+              <div class="skills_level">98%</div>
+              <p class="skills_text">Typescript</p>
+              <p class="skills_description">lorem ipsum dolor sit amet, consectetur adipis</p>
+            </article>
+          </div>
+        </div>
+        <div class="skills_skills">
+          <div class="skills_div">
+            <article class="cards-interval git sairCaixa">
+              <img src="assets/image/icon-git.svg" alt="ícone do git" class="icon-skills" />
+              <div class="skills_level">98%</div>
+              <p class="skills_text">Git</p>
+              <p class="skills_description">lorem ipsum dolor sit amet, consectetur adipis</p>
+            </article>
+          </div>
+        </div>

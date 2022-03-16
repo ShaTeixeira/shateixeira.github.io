@@ -60,6 +60,19 @@ sr.reveal(
 );
 sr.reveal(`.project_data, .services_container`, { delay: 400 });
 
+/* Botão voltar para o topo */
+const backToTopButton = document.querySelector('.back-to-top')
+
+function backToTop() {
+  if (window.scrollY >= 600) {
+    backToTopButton.classList.add('show')
+  } else {
+    backToTopButton.classList.remove('show')
+  }
+}
+
+
+
 const sections = document.querySelectorAll('section[id]');
 function scrollActive() {
   const scrollY = window.pageYOffset;

@@ -16,6 +16,12 @@
   <link rel="stylesheet" href="./assets/css/root.css" />
   <link rel="stylesheet" href="./assets/css/modo-dark.css" />
 
+  <style>
+    .access-button {
+      border-radius: 50px;
+    }
+  </style>
+  <!-- acessivel em libras -->
 
   <!-- icon -->
   <link rel="shortcut icon" href="assets/image/iconbytedev.svg" type="image/x-icon" />
@@ -25,7 +31,9 @@
   <header class="header" id="header">
     <nav class="nav container">
       <a href="#home" class="nav_logo">
-        <img src="assets/image/iconbytedev.svg" alt="shayane" class="nav_logo-img" />
+        <img src="assets/image/iconbytedev.svg"
+          alt="Logo da Pagina, conta com efeitos do universo e embaixo uma menina com um computador"
+          class="nav_logo-img" />
       </a>
       <div class="nav_menu" id="nav-menu">
         <ul class="nav_list">
@@ -49,15 +57,17 @@
           </li>
         </ul>
         <div class="nav_close" id="nav-close">
-          <img src="./assets/image/close-menu.svg" alt="Button Close Menu" />
+          <img src="./assets/image/close-menu.svg" alt="botao de fechar o menu, e como um x" />
         </div>
       </div>
       <div class="nav_btns">
         <div class="toggle">
           <input type="checkbox" class="checkbox" id="checkbox">
           <label for="checkbox" class="label">
-            <i class="theme-dark"><img class="img-toggle" src="./assets/image/moon.svg" alt="theme-dark"> </i>
-            <i class="theme-light"><img class="img-toggle" src="./assets/image/sun.svg" alt=""></i>
+            <i class="theme-dark"><img class="img-toggle" src="./assets/image/moon.svg"
+                alt="mudanca de tema a lua (dark)"> </i>
+            <i class="theme-light"><img class="img-toggle" src="./assets/image/sun.svg"
+                alt="mudanca de tema  o sol (light)"></i>
             <div class="switch"></div>
           </label>
         </div>
@@ -65,7 +75,7 @@
           <img class="change-theme" src="./assets/image/eua-flag.svg" alt="Button Change Language" />
         </a>
         <div class="nav_toggle" id="nav-toggle">
-          <img src="./assets/image/menu.svg" alt="Menu" />
+          <img src="./assets/image/menu.svg" alt="Menu com 3 traços" />
         </div>
       </div>
     </nav>
@@ -84,11 +94,11 @@
           </p>
           <div class="home_icons">
             <a href="https://github.com/ShaTeixeira" target="_blank"><img class="home_links"
-                src="./assets/image/github.svg" alt="Github" /></a>
+                src="./assets/image/github.svg" alt="Github, logo com um gato" /></a>
             <a href="https://www.linkedin.com/in/shayane-teixeira-4520b2196/" target="_blank"><img class="home_links"
-                src="./assets/image/linkedin.svg" alt="Linkedin" /></a>
+                src="./assets/image/linkedin.svg" alt="Linkedin, logo com um IN" /></a>
             <a href="https://instagram.com/byte__dev" target="_blank"><img class="home_links"
-                src="./assets/image/instagram.svg" alt="Instagram" /></a>
+                src="./assets/image/instagram.svg" alt="Instagram, logo de uma camera" /></a>
           </div>
           <div class="content_info_colors">
             <div class="cards_info_colors">
@@ -99,12 +109,21 @@
             </div>
           </div>
         </div>
-        <img src="assets/image/people-two.svg" alt="People Shayane" class="home_img" />
+        <img src="assets/image/people-two.svg" alt="Pessoa em 3D, lendo algo em tablet" class="home_img" />
       </div>
     </section>
+
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+
     <section class="about section container" id="about">
       <div class="about_data">
-        <img class="about_img" src="./assets/image/people.svg" width="421" height="590" alt="People" />
+        <img class="about_img" src="./assets/image/people.svg" width="421" height="590"
+          alt="Pessoa em 3D, mexendo em um celular" />
         <div class="about_text">
           <h2 class="about_title">
             Sobre mim<span class="about_pont">.</span>
@@ -139,14 +158,16 @@
       <h2 class="project_title">
         Projetos<span class="project_pont">.</span>
       </h2>
+      <a href="https://github.com/ShaTeixeira?tab=repositories" target="_blank" class="link">Repositórios
+        no GitHub</a>
       <div class="project_container">
-
         <div class="project_data">
           <div class="project_box">
-
-            <img class="project_img" src="./assets/image/devfinances.png" width="322" height="322" alt="" />
+            <img class="project_img" src="./assets/image/devfinances.png" width="320" height="320"
+              alt="projeto dev.finance desenvolvido na rocketseat, o imagem mostra a entrada, saida e total das financas" />
             <div class="project_img_text">
-              <img class="project_icon" src="./assets/image/iconbytedev.svg" width="56" height="56" alt="Kennedy" />
+              <img class="project_icon" src="./assets/image/iconbytedev.svg" width="56" height="56"
+                alt="Logo Byte_dev, já explicada" />
               <div>
                 <p class="project_text">Dev.Finance</p>
                 <p class="project_description">
@@ -168,7 +189,7 @@
           <div class="project_box">
             <img class="project_img" src="./assets/image/vipacai.png" width="322" height="322" alt="" />
             <div class="project_img_text">
-              <img class="project_icon" src="./assets/image/iconbytedev.svg" width="56" height="56" alt="Kennedy" />
+              <img class="project_icon" src="./assets/image/iconbytedev.svg" width="56" height="56" alt="" />
               <div>
                 <p class="project_text">VipAcai</p>
                 <p class="project_description">
@@ -190,7 +211,7 @@
           <div class="project_box">
             <img class="project_img" src="./assets/image/rocketcard.png" width="322" height="322" alt="" />
             <div class="project_img_text">
-              <img class="project_icon" src="./assets/image/iconbytedev.svg" width="56" height="56" alt="Kennedy" />
+              <img class="project_icon" src="./assets/image/iconbytedev.svg" width="56" height="56" alt="" />
               <div>
                 <p class="project_text">RocketCard</p>
                 <p class="project_description">
@@ -248,7 +269,9 @@
           <div class="skills_div">
             <article class="cards-interval js sairCaixa">
               <img src="assets/image/icon-js.svg" alt="ícone do javascript" class="icon-skills" />
+              <div class="skills_level">73%</div>
               <p class="skills_text">Javascript</p>
+              <p class="skills_description">lorem ipsum dolor sit amet, consectetur adipis</p>
             </article>
           </div>
         </div>
@@ -256,7 +279,9 @@
           <div class="skills_div">
             <article class="cards-interval sass sairCaixa">
               <img src="assets/image/icon-sass.svg" alt="ícone do sass" class="icon-skills" />
+              <div class="skills_level">50%</div>
               <p class="skills_text">Sass</p>
+              <p class="skills_description">lorem ipsum dolor sit amet, consectetur adipis</p>
             </article>
           </div>
         </div>
@@ -264,7 +289,9 @@
           <div class="skills_div">
             <article class="cards-interval ts sairCaixa">
               <img src="assets/image/icon-ts.svg" alt="ícone do ts" class="icon-skills" />
+              <div class="skills_level">53%</div>
               <p class="skills_text">Typescript</p>
+              <p class="skills_description">lorem ipsum dolor sit amet, consectetur adipis</p>
             </article>
           </div>
         </div>
@@ -272,42 +299,44 @@
           <div class="skills_div">
             <article class="cards-interval git sairCaixa">
               <img src="assets/image/icon-git.svg" alt="ícone do git" class="icon-skills" />
+              <div class="skills_level">90%</div>
               <p class="skills_text">Git</p>
+              <p class="skills_description">lorem ipsum dolor sit amet, consectetur adipis</p>
             </article>
           </div>
         </div>
         <!--   <div class="skills_skills">
-          <div class="skills_div">
-            <article class="cards-interval html sairCaixa">
-              <img src="assets/image/icon-html.svg" alt="ícone do html" class="icon-skills" />
-              <p class="skills_text">HTML</p>
-            </article>
-          </div>
-        </div> -->
+            <div class="skills_div">
+              <article class="cards-interval html sairCaixa">
+                <img src="assets/image/icon-html.svg" alt="ícone do html" class="icon-skills" />
+                <p class="skills_text">HTML</p>
+              </article>
+            </div>
+          </div> -->
         <!-- <div class="skills_skills">
-          <div class="skills_div">
-            <article class="cards-interval css sairCaixa">
-              <img src="assets/image/icon-css.svg" alt="ícone do css" class="icon-skills" />
-              <p class="skills_text">CSS</p>
-            </article>
-          </div>
-        </div> -->
+            <div class="skills_div">
+              <article class="cards-interval css sairCaixa">
+                <img src="assets/image/icon-css.svg" alt="ícone do css" class="icon-skills" />
+                <p class="skills_text">CSS</p>
+              </article>
+            </div>
+          </div> -->
         <!-- <div class="skills_skills">
-          <div class="skills_div">
-            <article class="cards-interval bts sairCaixa">
-              <img src="assets/image/icon-bootstrap.svg" alt="ícone do bootstrap" class="icon-skills" />
-              <p class="skills_text">Bootstrap</p>
-            </article>
-          </div>
-        </div> -->
+            <div class="skills_div">
+              <article class="cards-interval bts sairCaixa">
+                <img src="assets/image/icon-bootstrap.svg" alt="ícone do bootstrap" class="icon-skills" />
+                <p class="skills_text">Bootstrap</p>
+              </article>
+            </div>
+          </div> -->
         <!-- <div class="skills_skills">
-          <div class="skills_div">
-            <article class="cards-interval db sairCaixa">
-              <img src="assets/image/icon-db.svg" alt="ícone do db" class="icon-skills" />
-              <p class="skills_text">Banco Dados</p>
-            </article>
-          </div>
-        </div> -->
+            <div class="skills_div">
+              <article class="cards-interval db sairCaixa">
+                <img src="assets/image/icon-db.svg" alt="ícone do db" class="icon-skills" />
+                <p class="skills_text">Banco Dados</p>
+              </article>
+            </div>
+          </div> -->
       </div>
     </section>
 
@@ -332,36 +361,46 @@
       <p>💜 by Shayane Teixeira</p>
 
       <!--  <footer class="footer container grid" id="contact">
-      <h2 class="contact_title">
-        🌎 Olá pessoal<span class="contact_pont">!!</span>
-      </h2>
-      <p class="contact_paragraph">Não hesite em enviar uma mensagem!!</p>
-      <div class="skills_container">
-        <img src="../assets/image/footer.png" alt="footer 3d" width="100">
+        <h2 class="contact_title">
+          🌎 Olá pessoal<span class="contact_pont">!!</span>
+        </h2>
+        <p class="contact_paragraph">Não hesite em enviar uma mensagem!!</p>
+        <div class="skills_container">
+          <img src="../assets/image/footer.png" alt="footer 3d" width="100">
 
-        <a href="mailto:shayaneteixeira@gmail.com">shayaneteixeira@gmail.com</a>
+          <a href="mailto:shayaneteixeira@gmail.com">shayaneteixeira@gmail.com</a>
 
 
-        <a href="https://www.linkedin.com/in/shayane-teixeira-4520b2196" target="_blank">
-          Linkedin
-        </a>
-        <a href="https://www.instagram.com/shay_teixeir02/" target="_blank">
-          Instagram
-        </a>
-        <a href="https://github.com/ShaTeixeira" target="_blank">
-          GitHub
-        </a>
+          <a href="https://www.linkedin.com/in/shayane-teixeira-4520b2196" target="_blank">
+            Linkedin
+          </a>
+          <a href="https://www.instagram.com/shay_teixeir02/" target="_blank">
+            Instagram
+          </a>
+          <a href="https://github.com/ShaTeixeira" target="_blank">
+            GitHub
+          </a>
 
-        <br />
-        <p>💜 by Shayane Teixeira</p>
-      </div>
+          <br />
+          <p>💜 by Shayane Teixeira</p>
+        </div>
 
-    </footer> -->
+      </footer> -->
+    </footer>
 
-      <script src="assets/js/scrollreveal.min.js"></script>
-      <script src="assets/js/swiper-bundle.min.js"></script>
-      <script src="assets/js/main.js"></script>
-      <script src="assets/js/modo-dark.js"></script>
+    <!--     <a href="#home" class="back-to-top">
+      <img class="arrow" src="./assets/image/arrow.svg" alt="">
+    </a> -->
+
+    <script src="assets/js/libras.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/modo-dark.js"></script>
 </body>
 
 </html>

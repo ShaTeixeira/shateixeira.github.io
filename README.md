@@ -1,6 +1,7 @@
 <h1 align="center">
 <p>🚧 PROJETO EM CONSTRUÇAO 🚧</p>
 <p>alguns bugs sendo resolvidos como o modo dark e as seçoes na aba projetos</p>
+<p>🚧acesso libras em manutenca🚧</p>
 </h1>
 
 <h1 align="center">
