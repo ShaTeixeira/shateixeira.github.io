@@ -3,18 +3,19 @@
   --light: #f1f1f1;
   --label: #000;
 }
+
 body.dark {
   background: var(--dark);
-  color: #fff;
+  color: var(--light);
+}
+footer.dark {
+  background: var(--dark);
+  color: var(--light);
 }
 
 nav {
   color: var(--dark);
 }
-/* .contact_title,
-.contact_paragraph {
-  color: var(--light);
-} */
 
 div.toggle {
   background: var(--dark);
@@ -41,7 +42,7 @@ label.label {
   height: 2rem;
 }
 div.switch {
-  background: #fff;
+  background: var(--light);
   border-radius: 50%;
   width: 2rem;
   height: 2rem;
@@ -49,4 +50,4 @@ div.switch {
   left: 0.1rem;
   position: absolute;
   transition: transform 0.3s linear;
-} /*# sourceMappingURL=modo-dark.css.map */
+}

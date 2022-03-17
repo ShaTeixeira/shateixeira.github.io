@@ -1,45 +1,5 @@
 /*# sourceMappingURL=style.css.map */
 
-body,
-button,
-input {
-  font-family: "Poppins", sans-serif;
-  font-size: 24px;
-}
-
-body {
-  margin: 3.5rem 0 0 0;
-  background: var(--background-light);
-  color: var(--text-color);
-  transition: 0.4s;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  color: var(--title-color);
-  font-weight: 600;
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-span {
-  color: var(--color-badge);
-  font-weight: bold;
-}
-
 .nav_btns {
   display: flex;
   align-items: center;
@@ -50,27 +10,9 @@ span {
   max-width: 28px;
   color: var(--title-color);
   cursor: pointer;
-}
 
-body.dark-theme {
-  --title-color: #f2f2f2;
-  --text-color: #c2bdbd;
-  --body-color: #171515;
-  --button: rgba(255, 255, 255, 0.1);
-}
-
-.dark-theme {
-  .nav_link {
-    color: #b2b2b2;
-
-    &:hover {
-      color: #f7f7f7;
-    }
-  }
-
-  .active-link {
-    color: #f7f7f7;
-  }
+  display: flex;
+  align-items: inherit;
 }
 
 .container {
@@ -275,6 +217,7 @@ body.dark-theme {
 }
 
 .about_description {
+  text-align: justify;
   font-weight: 500;
   font-size: 18px;
   color: var(--text-color);
@@ -506,6 +449,7 @@ body.dark-theme {
 }
 
 .services_description {
+  text-align: justify;
   font-weight: 500;
   font-size: 18px;
   line-height: 30px;
@@ -519,34 +463,31 @@ body.dark-theme {
   color: #000;
 }
 
-footer {
+.footer {
   padding-top: 4rem;
   margin-top: 10px;
   text-align: center;
-  background: var(--background-light);
   color: var(--color-base);
-  font-family: "Poppins", sans-serif;
 
   > a {
-    background: var(--second-color);
-    padding: 5px 5px;
     border-radius: 20px;
-    color: var(--background-dark);
+    color: var(--second-color-letter);
     font-size: 1.6rem;
 
     &:hover {
       opacity: 1;
+      color: var(--color-base-two);
     }
   }
 
   h2 {
-    color: var(--background-dark);
+    color: var(--second-color-letter);
     font-weight: 500;
     font-size: 3.2rem;
   }
 
   p {
-    color: var(--background-dark);
+    color: var(--second-color-letter);
     opacity: 0.5;
     padding: 30px;
     font-size: 1.8rem;
@@ -561,16 +502,9 @@ footer {
   }
 
   div {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin: 30px;
 
@@ -982,5 +916,3 @@ footer {
     max-width: 350px;
   }
 }
-
-/*# sourceMappingURL=main.scss.map */

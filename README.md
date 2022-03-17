@@ -1,12 +1,12 @@
 <h1 align="center">
-<p>🚧 PROJETO EM CONSTRUÇAO 🚧</p>
-<p>alguns bugs sendo resolvidos como o modo dark e as seçoes na aba projetos</p>
-<p>🚧acesso libras em manutenca🚧</p>
+<p>🚧 PROJETO EM CONSTRUÇÃO 🚧</p>
+<p>alguns bugs sendo resolvidos como, seções na aba projetos</p>
+<p>🚧acesso libras em manutenção🚧</p>
 </h1>
 
 <h1 align="center">
 <img src="assets/image/iconbytedev.svg" alt="Logo bytedev" width="40%">
-<p>Meu Portfólio - @byte__dev</p>
+<p>Meu Portfólio</p>
 </h1>
 
 <h4 align="center"><a href="https://shateixeira.github.io">Clique para visitar o site</a></h4>
@@ -20,7 +20,8 @@ O site é composto por 5 seções diferentes:
 - _Home:_ **Breve apresentação**;
 - _Sobre mim:_ **Descrição de quem eu sou**;
 - _Projetos:_ **Alguns projetos que desenvolvi e um link para o repositorio do GitHub**;
-- _Serviços:_ **Meus conhecimentos em algumas linguagens**.
+- _Serviços:_ **Os tipos de serviços que ofereço**.
+- _Conhecimentos:_ **Meus conhecimentos em algumas linguagens**.
 - _Contato:_ **Faça contato comigo**.
 
 ## 💼 Tecnologias
@@ -28,13 +29,13 @@ O site é composto por 5 seções diferentes:
 Para desenvolver este site foi utilizado:
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JAVASCRIPT)
 - [Sass](https://sass-lang.com/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JAVASCRIPT)
 
 Utilitários
 
 - [ScrollReveal](https://scrollrevealjs.org/)
+- [Google Fonts](https://fonts.google.com)
 
 ## 💼 Licença
 
