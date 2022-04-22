@@ -27,7 +27,6 @@ ol {
 body,
 button,
 input {
-  font-family: "Poppins", sans-serif;
   font-size: 24px;
 }
 
@@ -98,41 +97,6 @@ html {
 .show-scroll {
   bottom: 3rem;
 }
-
-/* Back to top */
-/* .back-to-top {
-  background: var(--letter-color-atention);
-
-  position: relative;
-
-  clip-path: circle();
-  padding: 0.5rem;
-  margin-left: 0.4rem;
-  margin-bottom: 4rem;
-
-  display: flex;
-  align-items: center;
-
-  font-size: 1.5rem;
-  line-height: 0;
-
-   visibility: hidden;
-  opacity: 0; 
-
-  transition: 0.3s;
-  transform: translateY(100%);
-}
-
-.arrow {
-  margin-left: 0.4rem;
-  margin-bottom: 0.4rem;
-}
-
-.back-to-top.show {
-  visibility: visible;
-  opacity: 1;
-  transform: translateY(0);
-} */
 
 ::-webkit-scrollbar {
   width: 6px;
