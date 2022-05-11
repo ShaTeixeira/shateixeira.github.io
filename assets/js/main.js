@@ -44,21 +44,6 @@ themeButton.addEventListener('click', () => {
   localStorage.setItem('selected-theme', getCurrentTheme());
 });
 
-const sr = ScrollReveal({
-  origin: 'top',
-  distance: '50px',
-  duration: 2500,
-  delay: 400,
-});
-
-sr.reveal(`.home_img, .about_img, .about_emp`, { delay: 600 });
-sr.reveal(
-  `.home_data, .about_emp, .about_text, .project_title, .services_title`,
-  {
-    delay: 300,
-  }
-);
-sr.reveal(`.project_data, .services_container`, { delay: 400 });
 
 /* Botão voltar para o topo */
 const backToTopButton = document.querySelector('.back-to-top')
@@ -70,7 +55,6 @@ function backToTop() {
     backToTopButton.classList.remove('show')
   }
 }
-
 
 
 const sections = document.querySelectorAll('section[id]');
