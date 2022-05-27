@@ -1,9 +1,5 @@
-  <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              style="fill: rgba(156, 156, 156, 1); transform: ; msfilter: "
-            >
-              <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
-            </svg>
+<svg width="28" height="11" viewBox="0 0 28 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="28" height="1" fill="rgba(156, 156, 156, 1)"/>
+<rect y="5" width="28" height="1" fill="rgba(156, 156, 156, 1)"/>
+<rect x="14" y="10" width="14" height="1" fill="rgba(156, 156, 156, 1)"/>
+</svg>

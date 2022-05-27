@@ -2,26 +2,20 @@
 <html lang="pt_BR">
 
 <head>
-
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Website Portfolio Shayane Teixeira" />
 
-  <title>Shayane Teixeira</title>
-
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <!-- icon -->
+  <link rel="shortcut icon" href="../assets/image/iconbytedev.svg" type="image/x-icon" />
   <!-- STYLES -->
-  <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="../assets/css/global.css" />
+  <link rel="stylesheet" href="../assets/css/main.css" />
 
-  <link rel="stylesheet" href="./assets/css/global.css" />
-  <link rel="stylesheet" href="./assets/css/main.css" />
-  <link rel="stylesheet" href="./assets/css/root.css" />
-  <link rel="stylesheet" href="./assets/css/modo-dark.css" />
-
-  <!-- ICON PAGE -->
-
-  <link rel="shortcut icon" href="assets/image/iconbytedev.svg" type="image/x-icon" />
-
+  <title>Shayane Teixeira</title>
 </head>
 
 <body>
@@ -32,10 +26,6 @@
           alt="Logo da Pagina, conta com efeitos do universo e embaixo uma menina com um computador"
           class="nav_logo-img" />
       </a>
-      <p style="font-size:14px">
-        <img src="assets/image/circle.svg" alt="" width="20" height="20" />
-        Transferindo para ReactJS
-      </p>
       <div class="nav_menu" id="nav-menu">
         <ul class="nav_list">
           <li class="nav_item">
@@ -61,24 +51,7 @@
           <img src="./assets/image/close-menu.svg" alt="botao de fechar o menu, e como um x" />
         </div>
       </div>
-      <div class="nav_btns">
-        <div class="toggle">
-          <input type="checkbox" class="checkbox" id="checkbox">
-          <label for="checkbox" class="label">
-            <i class="theme-dark"><img class="img-toggle" src="./assets/image/moon.svg"
-                alt="mudanca de tema a lua (dark)"> </i>
-            <i class="theme-light"><img class="img-toggle" src="./assets/image/sun.svg"
-                alt="mudanca de tema  o sol (light)"></i>
-            <div class="switch"></div>
-          </label>
-        </div>
-        <a href="eua/index.html">
-          <img class="change-theme" src="./assets/image/eua-flag.svg" alt="Button Change Language" />
-        </a>
-        <div class="nav_toggle" id="nav-toggle">
-          <img src="./assets/image/menu.svg" alt="Menu com 3 traços" />
-        </div>
-      </div>
+      <!-- adicionar toggle + language-->
     </nav>
   </header>
   <main class="main">
@@ -86,34 +59,47 @@
       <div class="home_container container grid">
         <div class="home_data">
           <p class="home_text">Olá, Sou Shayane.</p>
-          <h1 class="home_title">
-            Front End & <br />
-            UI Design
-          </h1>
-          <p class="home_description">
+          <h1 class="home_title">Front End & <br /> UI Design</h1>
+          <p class="home_description" id="machine-write">
             Front End & UI Design, sempre evoluindo!!!
           </p>
-          <div class="home_icons">
-            <a href="https://github.com/ShaTeixeira" target="_blank">
-              <img class="home_links" src="./assets/image/github-purple.svg" alt="Github" />
-            </a>
-            <a href="https://www.linkedin.com/in/shayane-teixeira-4520b2196/" target="_blank">
-              <img class="home_links" src="./assets/image/linkedin-purple.svg" alt="Linkedin" />
-            </a>
-            <a href="https://instagram.com/byte__dev" target="_blank">
-              <img class="home_links" src="./assets/image/instagram-purple.svg" alt="Instagram" />
-            </a>
-          </div>
         </div>
-        <img src="assets/image/people-two.svg" alt="Pessoa em 3D, com um tablet" class="home_img" />
+        <img src="assets/image/loopbg.svg" alt="Pessoa em 3D, com um tablet" class="home_img" />
       </div>
     </section>
 
+    <section class="social">
+      <div class="container">
+        <a href="https://www.linkedin.com/in/shayane-teixeira-4520b2196/" target="_blank" class="social-col">
+          <div class="icon-img">
+            <img src="./assets/image/linkedin-purple.svg" alt="">
+          </div>
+          <h3>Linkedin</h3>
+        </a>
+        <a href="https://github.com/ShaTeixeira" target="_blank" class="social-col">
+          <div class="icon-img">
+            <img src="./assets/image/github-purple.svg" alt="">
+          </div>
+          <h3>Github</h3>
+        </a>
+        <a href="#home" class="social-col">
+          <div class="icon-img">
+            <img src="./assets/image/mail.svg" alt="">
+          </div>
+          <h3>E-mail</h3>
+        </a>
+        <a href="#home" class="social-col">
+          <div class="icon-img">
+            <img src="./assets/image/phone.svg" alt="">
+          </div>
+          <h3>Telefone</h3>
+        </a>
+      </div>
+    </section>
 
     <section class="about section container" id="about">
       <div class="about_data">
-        <img class="about_img" src="./assets/image/people.svg" width="421" height="590"
-          alt="Pessoa em 3D, mexendo em um celular" />
+        <img class="about_img" src="./assets/image/people.svg" width="500" height="600" alt="" />
         <div class="about_text">
           <h2 class="about_title">
             Sobre mim<span class="about_pont">.</span>
@@ -128,21 +114,83 @@
             Front-End no inicio de 2020. Normalmente tenho me dedicando cerca de
             8hrs por dia aos estudos.
           </p>
-          <a class="about_button" href="assets/cv/cv.pdf" target="_blank">Visualizar CV</a>
           <div class="about_icons">
             <a href="https://github.com/ShaTeixeira" target="_blank">
-              <img class="home_links" src="./assets/image/github.svg" alt="Github" />
+              <img class="home_links" src="./assets/image/github-purple.svg" alt="Github" />
             </a>
             <a href="https://www.linkedin.com/in/shayane-teixeira-4520b2196/" target="_blank">
-              <img class="home_links" src="./assets/image/linkedin.svg" alt="Linkedin" />
+              <img class="home_links" src="./assets/image/linkedin-purple.svg" alt="Linkedin" />
             </a>
             <a href="https://instagram.com/byte__dev" target="_blank">
-              <img class="home_links" src="./assets/image/instagram.svg" alt="Instagram" />
+              <img class="home_links" src="./assets/image/instagram-purple.svg" alt="Instagram" />
             </a>
+          </div>
+          <a class="about_button" href="assets/cv/cv.pdf" target="_blank">
+            Visualizar CV
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiencia" class="experiencia">
+      <div class="experiencia_container container">
+        <h2 class="about_title">
+          Experiência<span class="about_pont">.</span>
+        </h2>
+        <div class="experiencia_conteudo_container">
+          <ul class="experiencia_lista">
+            <li class="experiencia_item experiencia_item-ativo">Lorem Ipsum</li>
+            <li class="experiencia_item">Lorem Ipsum</li>
+            <li class="experiencia_item">Lorem Ipsum</li>
+          </ul>
+          <div class="conteudo">
+
+
+            <article class="experiencia_conteudo experiencia_conteudo-ativo">
+              <div class="d-flex">
+                <h3 class="experiencia_conteudo_titulo">Lorem Ipsum</h3>
+                <span class="experiencia_data">Jan. 2019 a Dez. 2021</span>
+              </div>
+              <h4 class="experiencia_conteudo_subtitulo">LOREM LOREM</h4>
+              <p class="experiencia_conteudo_paragrafo">Lorem Ipsum is simply dummy text of the printing and
+                typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                unknown
+                printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </article>
+
+
+            <article class="experiencia_conteudo">
+              <div class="d-flex">
+                <h3 class="experiencia_conteudo_titulo">Lorem Ipsum</h3>
+                <span class="experiencia_data">Jul. 2017 a Fev. 2018</span>
+              </div>
+              <h4 class="experiencia_conteudo_subtitulo">LOREM LOREM</h4>
+              <p class="experiencia_conteudo_paragrafo">Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more
+                obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in
+                classical literature, discovered the undoubtable source. </p>
+            </article>
+
+
+            <article class="experiencia_conteudo">
+              <div class="d-flex">
+                <h3 class="experiencia_conteudo_titulo">Lorem Ipsum</h3>
+                <span class="experiencia_data">Jun. 2016 a Mai. 2017</span>
+              </div>
+              <h4 class="experiencia_conteudo_subtitulo">LOREM LOREM</h4>
+              <p class="experiencia_conteudo_paragrafo">It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.
+              </p>
+            </article>
           </div>
         </div>
       </div>
     </section>
+
 
     <section class="projects container grid" id="projects">
       <h2 class="project_title">
@@ -153,7 +201,7 @@
       <div class="project_container">
         <div class="project_data">
           <div class="project_box">
-            <img class="project_img" src="./assets/image/calcimc.png" width="320" height="320" alt="" />
+            <img class="project_img" src="./assets/image/projects/calcimc.png" width="320" height="320" alt="" />
             <div class="project_img_text">
               <img class="project_icon" src="./assets/image/iconbytedev.svg" width="56" height="56"
                 alt="Logo Byte_dev" />
@@ -177,7 +225,7 @@
         </div>
         <div class=" project_data">
           <div class="project_box">
-            <img class="project_img" src="./assets/image/primeburger.png" width="322" height="322" alt="" />
+            <img class="project_img" src="./assets/image/projects/primeburger.png" width="322" height="322" alt="" />
             <div class="project_img_text">
               <img class="project_icon" src="./assets/image/iconbytedev.svg" width="56" height="56" alt="" />
               <div>
@@ -201,7 +249,7 @@
         </div>
         <div class="project_data">
           <div class="project_box">
-            <img class="project_img" src="./assets/image/redesignagoras.png" width="322" height="322" alt="" />
+            <img class="project_img" src="./assets/image/projects/redesignagoras.png" width="322" height="322" alt="" />
             <div class="project_img_text">
               <img class="project_icon" src="./assets/image/iconbytedev.svg" width="56" height="56" alt="" />
               <div>
@@ -234,36 +282,76 @@
       <div class="skills_container">
         <div class="skills_skills">
           <div class="skills_div">
-            <article class="cards-interval js sairCaixa">
-              <img src="assets/image/icon-js.svg" alt="ícone do javascript" class="icon-skills" />
-              <p class="skills_text">Javascript</p>
+            <article class="cards-interval">
+              <img src="assets/image/language/html.svg" alt="" class="icon-skills" />
             </article>
           </div>
         </div>
         <div class="skills_skills">
           <div class="skills_div">
-            <article class="cards-interval sass sairCaixa">
-              <img src="assets/image/icon-sass.svg" alt="ícone do sass" class="icon-skills" />
+            <article class="cards-interval">
+              <img src="assets/image/language/css.svg" alt="" class="icon-skills" />
+            </article>
+          </div>
+        </div>
+        <div class="skills_skills">
+          <div class="skills_div">
+            <article class="cards-interval">
+              <img src="assets/image/language/javascript.svg" alt="" class="icon-skills" />
+            </article>
+          </div>
+        </div>
+        <div class="skills_skills">
+          <div class="skills_div">
+            <article class="cards-interval">
+              <img src="assets/image/language/typescript.svg" alt="" class="icon-skills" />
+            </article>
+          </div>
+        </div>
+        <div class="skills_skills">
+          <div class="skills_div">
+            <article class="cards-interval">
+              <img src="assets/image/language/git.svg" alt="" class="icon-skills" />
+            </article>
+          </div>
+        </div>
+        <div class="skills_skills">
+          <div class="skills_div">
+            <article class="cards-interval">
+              <img src="assets/image/language/sql.svg" alt="" class="icon-skills" />
 
-              <p class="skills_text">Sass</p>
+            </article>
+          </div>
+        </div>
+        <div class="skills_skills">
+          <div class="skills_div">
+            <article class="cards-interval">
+              <img src="assets/image/language/sass.svg" alt="" class="icon-skills" />
+
+            </article>
+          </div>
+        </div>
+        <div class="skills_skills">
+          <div class="skills_div">
+            <article class="cards-interval">
+              <img src="assets/image/language/bootstrap.svg" alt="" class="icon-skills" />
+
             </article>
           </div>
         </div>
         <div class="skills_skills">
           <div class="skills_div">
             <article class="cards-interval ts sairCaixa">
-              <img src="assets/image/icon-ts.svg" alt="ícone do ts" class="icon-skills" />
+              <img src="assets/image/language/figma.svg" alt="" class="icon-skills" />
 
-              <p class="skills_text">Typescript</p>
             </article>
           </div>
         </div>
         <div class="skills_skills">
           <div class="skills_div">
-            <article class="cards-interval git sairCaixa">
-              <img src="assets/image/icon-git.svg" alt="ícone do git" class="icon-skills" />
+            <article class="cards-interval">
+              <img src="assets/image/language/postgre.svg" alt="" class="icon-skills" />
 
-              <p class="skills_text">Git</p>
             </article>
           </div>
         </div>
@@ -277,20 +365,23 @@
       <div class="services_container">
         <div class="services_services">
           <div class="services_div">
-            <img src="./assets/image/broom.svg" alt="Web Design" />
-            <p class="services_text">Web Design</p>
-            <p class="services_description">
-              Estudo Web Design diariamente, usando a plataforma: Figma
-            </p>
+            <img src="./assets/image/code.svg" alt="Web Design" />
+            <p class="services_text">Criação de sites</p>
+            <p class="services_description"></p>
           </div>
         </div>
         <div class="services_services">
           <div class="services_div">
-            <img src="./assets/image/computer.svg" alt="Web Development" />
-            <p class="services_text">Web Development</p>
-            <p class="services_description">
-              Atualmente estudando Reactjs. Plano de estudos: Nodejs(TDD e Testes), Nextjs, Redux e PWA.
-            </p>
+            <img src="./assets/image/figma.svg" alt="Web Design" />
+            <p class="services_text">UI Designer</p>
+            <p class="services_description"></p>
+          </div>
+        </div>
+        <div class="services_services">
+          <div class="services_div">
+            <img src="./assets/image/smartphone.svg" alt="Web Development" />
+            <p class="services_text">Sites responsivos</p>
+            <p class="services_description"></p>
           </div>
         </div>
       </div>
@@ -298,7 +389,7 @@
 
     <!-- footer -->
     <section class="footer container grid" id="contact">
-      <h2 class="footer_title">🌎 Hi everybody!</h2>
+      <h2 class="footer_title">🌎 Hey pessoal!</h2>
 
       <a href="mailto:shayaneteixeira@gmail.com">shayaneteixeira@gmail.com</a>
 
@@ -323,10 +414,10 @@
     <!--Script das animações-->
     <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
     <!--Scritps-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/scrollreveal.min.js"></script>
-    <script src="assets/js/modo-dark.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script src="./assets/js/scrollreveal.min.js"></script>
+    <script src="./assets/js/modo-dark.js"></script>
+    <script src="./assets/js/main.js"></script>
 
 </body>
 

@@ -1,6 +1,9 @@
 /* FONTS GOOGLE  */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap");
 
+@import './root';
+@import './modo-dark';
+
 /* RESET */
 * {
   padding: 0;
@@ -13,7 +16,6 @@
 *,
 ::before,
 ::after {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -32,8 +34,8 @@ input {
 
 body {
   margin: 3.5rem 0 0 0;
-  background: var(--background-light);
-  color: var(--text-color);
+  background: var(--background-dark);
+  color: var(--light);
   transition: 0.4s;
 }
 
