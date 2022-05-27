@@ -1,3 +1,5 @@
+@import './modo-dark';
+
 .header {
   background: var(--header-background);
   width: 100%;
@@ -334,7 +336,6 @@
 }
 
 
-
 /* projetos container ====================== */
 .projects {
   padding-top: 85px;
@@ -415,13 +416,23 @@
   text-align: center;
 }
 
-/* skills */
+
+/* skills  =======================================*/
 .skills_title {
-  padding-top: 50px;
+  padding-top: 60px;
+  padding-bottom: 50px;
   font-weight: 600;
   font-size: 50px;
   color: var(--title-color);
   justify-self: center;
+}
+.skills_container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-items: center;
 }
 .skills_paragraph {
   font-weight: 400;
@@ -429,11 +440,9 @@
   color: var(--title-color);
   justify-self: center;
 }
-
 .skills_pont {
   color: var(--letter-color-atention);
 }
-
 .skills_level {
   position: absolute;
   top: 140px;
@@ -447,21 +456,10 @@
   border-radius: 50%;
   border: 0.3rem solid;
 }
-
 .skills_container:nth-child(3) .skills_level {
   border-color: var(--letter-color-atention);
   color: var(--letter-color-atention);
 }
-
-.skills_container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  justify-items: center;
-}
-
 .skills_skills {
   background: rgba(196, 196, 196, 0.07);
   border: 1px solid rgba(196, 196, 196, 0.76);
@@ -469,13 +467,19 @@
   backdrop-filter: blur(56px);
   border-radius: 12px;
   padding: 10px 10px 10px 10px;
-}
 
+  &:hover{
+    transition: all ease .8s;
+    border-bottom: 10px solid var(--color-base-two);
+    background: var(--color);
+    transform: scale(1); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+  }
+}
 .skills_div {
   text-align: center;
   justify-self: center;
 }
-
 .skills_text {
   padding-top: 20px;
   padding-bottom: 25px;

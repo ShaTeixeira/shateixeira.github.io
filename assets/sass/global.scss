@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap");
 
 @import './root';
-@import './modo-dark';
 
 /* RESET */
 * {
@@ -34,17 +33,9 @@ input {
 
 body {
   margin: 3.5rem 0 0 0;
-  background: var(--background-dark);
-  color: var(--light);
+  background: var(--background-light);
+  color: var(--dark);
   transition: 0.4s;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  color: var(--title-color);
-  font-weight: 600;
 }
 
 ul {
@@ -93,7 +84,7 @@ html {
 
 .scrollup_icon {
   font-size: 1.25rem;
-  color: var(--letter-color-atention);
+  color: var(--color-base-two);
 }
 
 .show-scroll {
@@ -102,12 +93,12 @@ html {
 
 ::-webkit-scrollbar {
   width: 6px;
-  background: var(--letter-color-atention);
-  border-radius: 5px;
+  background: var(--color-base-two);
+/*   border-radius: 5px; */
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--color-base-two);
+  background: var(--letter-color-atention);
   border-radius: 5px;
 }
 
