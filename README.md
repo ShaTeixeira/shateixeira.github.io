@@ -1,10 +1,4 @@
 <h1 align="center">
-<p>🚧 PROJETO EM CONSTRUÇÃO 🚧</p>
-<p>alguns bugs sendo resolvidos como, seções na aba projetos</p>
-<p>🚧acesso libras em manutenção🚧</p>
-</h1>
-
-<h1 align="center">
 <img src="assets/image/iconbytedev.svg" alt="Logo bytedev" width="40%">
 <p>Meu Portfólio</p>
 </h1>
@@ -12,6 +6,11 @@
 <h4 align="center"><a href="https://shateixeira.github.io">Clique para visitar o site</a></h4>
 
 ![Resultado final do projeto](assets/image/preview.png)
+
+<h3 align="center">
+<p>🚧 PROJETO EM CONSTRUÇÃO 🚧</p>
+<p>🚧acesso libras em manutenção🚧</p>
+</h1>
 
 ## 📚 Seções
 
