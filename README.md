@@ -8,7 +8,7 @@
 ![Resultado final do projeto](assets/image/preview.png)
 
 <h3 align="center">
-<p>🚧 PROJETO EM CONSTRUÇÃO 🚧</p>
+<p>🚧 PROJETO PASSADO MUDADO, AGORA ESTÁ EM REACTJS 🚧</p>
 <p>🚧acesso libras em manutenção🚧</p>
 </h1>
 
